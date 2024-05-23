@@ -1,4 +1,4 @@
-# aask user anme
+# ask user name
 name = input("What is your name? ") .strip().title()
 
 #remove white space
