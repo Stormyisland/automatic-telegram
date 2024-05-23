@@ -1,9 +1,11 @@
 # aask user anme
-name = input("What is your name? ")
+name = input("What is your name? ") .strip().title()
 
 #remove white space
-name = name.strip()
+#name = name.strip().title()
 
-name = name.capitalize() 
+first, middle, last, = name.split(" ")
 
-print(f"hello {name}")
+
+
+print(f"hello {last}")
