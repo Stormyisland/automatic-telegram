@@ -6,5 +6,6 @@ def switch(y,x):
 x = 5
 y = 7
 print("x =",x ,"y =", y)
-switch(x, y)    
+switch(x, y) 
+print("x =",x ,"y =", y)
     
